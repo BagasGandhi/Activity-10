@@ -35,4 +35,13 @@ public:
     string nama;
     vector<pasien*> daftar_pasien;
 
+    //pembuatan constructor dan destructor pada class dokter
+    dokter(string pNama) : nama(pNama) {
+        cout << "Dokter \"" << nama << "\" ada\n";
+    }
+
+    ~dokter() {
+        cout << "Dokter \"" << nama << "\" tidak ada\n";
+    }
+
 };
