@@ -5,3 +5,10 @@
 #include <string>
 
 using namespace std;
+
+class anak;
+
+// membuat class ibu pada file header ibu.h
+class ibu {
+
+};
