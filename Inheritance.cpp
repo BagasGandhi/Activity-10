@@ -24,3 +24,9 @@ public:
     }
 
 };
+
+//pembuatan class anak sebagai pewaris dari class orang 
+class pelajar : public orang {
+
+
+};
