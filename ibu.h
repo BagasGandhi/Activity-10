@@ -20,4 +20,8 @@ public:
         cout << "Ibu  \"" << nama << "\" ada \n";
     };
 
+    ~ibu() {
+        cout << "ibu \"" << nama << "\" tidak ada \n";
+    };
+
 };
