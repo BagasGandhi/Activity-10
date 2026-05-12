@@ -21,4 +21,9 @@ class pasien {
         ~pasien() {
             cout << "Pasien \"" << nama << "\" tidak ada\n";
         };
+
+        //deklarasi prosedure tambahDokter() dan cetakDokter()
+        void tambahDokter(dokter*);
+        void cetakDokter();
 };
+
