@@ -27,3 +27,7 @@ class pasien {
         void cetakDokter();
 };
 
+//pembuatan class dokter
+class dokter {
+
+};
