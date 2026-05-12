@@ -6,3 +6,20 @@
 
 using namespace std;
 
+// membuat class anak di file header anak.h
+class anak {
+public:
+    // deklarasi member variabel pada class anak
+    string nama;
+
+    //membuat construktor
+    anak(string pNama) : nama(pNama) {
+        cout << "Anak \ "" << nama << "\" ada \n";
+    }
+
+    ~anak() {
+        cout << "Anak \ \"" << nama << "\" tidak ada \n";
+    }
+};
+
+#endif
